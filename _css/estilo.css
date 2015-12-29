@@ -274,4 +274,8 @@ footer#rodape a:hover{
 	background: #606060;
 }
 
+video#video2{
+	position: relative;
+	width: 348px;
+}
 
