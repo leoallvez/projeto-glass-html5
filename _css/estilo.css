@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 @font-face{
 	font-family: 'FonteLogo';
-	src: url("../_fonts/bubblegum-sans-regular.otf");
+	src: url("../_fonts/Montserrat-Light.otf");
 }
 
 body{
@@ -12,13 +12,14 @@ body{
 }
 
 div#interface{
-	width: 900px;
-	background-color: white;
+	width: 1100px;
+	background-color: #fff;
 	margin: -20px auto 0px auto; /*Centralizando a interface*/
 	/*box-shadow parametros deslocamento lateral- delocamento 
 	vertical - espalhamento da sombra -cor*/
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 	padding: 10px;
+	border-radius: 5px;
 }
 
 p{
@@ -31,44 +32,44 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
+/*a:hover{
 	text-decoration: underline;
-}
+}*/
 
 header#cabecalho img#icone{
 	position: absolute;
 	left: 960px;
-	top: 70px;
+	top: 20px;
 }
 
 header#cabecalho{
-	border-bottom: 1px #606060 solid;
-	height: 150px;
-	/*Posicionando a logo do glass*/
-	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+	border-radius: 5px;
+	height: 175px;
+	width: 100%;
+	background-color: #000;
+}
+
+header#cabecalho img#logo{
+	margin-top: -5px;
+	width: 250px;
 }
 
 header#cabecalho h1{
 	font-family: 'FonteLogo', sans-serif;
-	font-size: 30pt;
-	color: #606060;
+	font-size: 1em;
+	color: #09F;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	padding: 0px;
-	margin-bottom: 0px; 
+	margin-top: -50px;
+	margin-left: 35px;
 }
 
-header#cabecalho h2{
-	font-family: 'Titillium Web', sans-serif;
-	color: #888888;
-	font-size: 15pt;
-	padding: 0px;
-	margin-top: 0px;
-}
+
 
 /*formatação de imagnes com legendas*/
 figure.foto-legenda{
 	position: relative;/*Por ser conteiner*/
-	border: 8px solid white;
+	border: 8px solid #fff;
 	box-shadow: 1px 1px 4px black; /*Criando sombra*/
 }
 
@@ -102,26 +103,30 @@ posição absolute o objeto fica solto pelo site*/
 
 nav#menu{
 	display: block;
+	font-family: Verdana;
+
 }
 
 nav#menu ul{
 	list-style: none; /*Tirar marcardor da lista*/
-	text-transform: uppercase; /*Tranformar em caixa alta*/
 	position: absolute;
-	top: -20px;
-	left: 490px;
+	top: 0px;
+	left: 350px;
 }
 
 nav#menu li{
+	border: 2px solid #000;
 	display: inline-block; /*Blocos em apenas uma linha*/
-	background-color: #dddddd;
+	background-color: #000;
 	padding: 10px;
 	margin: 2px;
-	transition: background-color 1.2s;
+	border-radius: 5px;
+	transition: background-color 2s;
+	transition: color 5s;
 }
 
 nav#menu li:hover{
-	background-color:#606060;
+	border: 2px solid #09F;
 }
 
 nav#menu h1{
@@ -129,17 +134,22 @@ nav#menu h1{
 }
 
 nav#menu a{
-	color: black;
-	text-decoration: none;	
+	color: #32CD32;
+	text-decoration: none;
+	transition: color 1s;
 }
 
-nav#menu a:hover{
-	color: white;	
+nav#menu a#s{
+	color: #09F;
+}
+
+nav#menu li:hover a{
+	color: #09F;	
 }
 
 section#corpo{
 	display: block; /*Mostrar como um bloco*/	
-	width: 510px;
+	width: 710px;
 	float: left;
 	border-right: 1px solid #606060;
 	padding-right: 15px;
@@ -147,10 +157,11 @@ section#corpo{
 
 article#noticia-principal h2{
 	font-size: 12pt;
-	color: #606060;
-	background-color: #dddddd;
+	color: #09F;
+	background-color: #000;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px;
+	border-radius: 5px;
 }
 
 header#cabecalho-artigo h1{
