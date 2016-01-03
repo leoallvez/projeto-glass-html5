@@ -6,9 +6,10 @@
 }
 
 body{
-	background-color: #dddddd;
+	background-color: #ddd;
 	color: rgba(0,0,0,1);
-	font-family: Arial;
+	font-family: Verdana;
+	font-size: 1em;
 }
 
 div#interface{
@@ -18,13 +19,13 @@ div#interface{
 	/*box-shadow parametros deslocamento lateral- delocamento 
 	vertical - espalhamento da sombra -cor*/
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-	padding: 10px;
+	padding: 15px;
 	border-radius: 5px;
 }
 
 p{
 	text-align: justify;
-	text-indent: 50px;
+	text-indent: 40px;
 }
 
 a{
@@ -47,6 +48,7 @@ header#cabecalho{
 	height: 175px;
 	width: 100%;
 	background-color: #000;
+	margin-top: -5px;
 }
 
 header#cabecalho img#logo{
@@ -84,13 +86,18 @@ figure.foto-legenda figcaption{
 	position: absolute;
 	top: 0px;
 	background-color: rgba(0,0,0,0.4);
-	color: white;
+	color: #32CD32;
 	width: 100%;
 	height: 100%;
 	padding: 10px;
 	box-sizing: border-box;
 	/*Criando transição*/
 	transition: opacity 1.2s; /*1s = um segundo*/
+}
+
+figure.foto-legenda p{
+	color: #09F;
+	text-indent: 20px;
 }
 
 figure.foto-legenda:hover figcaption{
@@ -121,8 +128,6 @@ nav#menu li{
 	padding: 10px;
 	margin: 2px;
 	border-radius: 5px;
-	transition: background-color 2s;
-	transition: color 5s;
 }
 
 nav#menu li:hover{
@@ -176,7 +181,7 @@ header#cabecalho-artigo h1{
 header#cabecalho-artigo h2{
 	font-size: 13pt;
 	color: #cecece;	
-	background-color: #ffffff;
+	background-color: #fff;
 
 }
 
@@ -188,34 +193,36 @@ header#cabecalho-artigo h3{
 	text-align: right;
 }
 table#tabelaspec{
-	border: 1px solid #606060;
+	border: 2px solid #09F;
 	border-spacing: 0px; /*Espaço entre as celulas*/
 	margin-left: auto;
 	margin-right: auto;
+	padding: 5px;
+	box-shadow: 1px 1px 4px black;
 }
 
 table#tabelaspec td{
-	border: 1px solid #606060;	
+	border: 1px solid #09F;	
 	padding: 10px;
 	vertical-align: middle;
 }
 
 table#tabelaspec td.ce{
-	color: white;
-	background-color: #606060;
+	color: #FFF;
+	background-color: #09F;
 	vertical-align: top;
 	font-weight: bold;
 	text-align: right;
 }
 
 table#tabelaspec td.cd{
-	background-color: #cecece;
+	background-color: #fff;
 	text-align: left;
 
 }
 
 table#tabelaspec caption{
-	color:#888888;
+	color:#888;
 	font-size: 13pt;
 	font-weight: bolder;
 }
@@ -272,15 +279,25 @@ footer#rodape p:first-child{
 footer#rodape a{
 	text-decoration: none;
 	color: black;
-	color : #888888;
-	padding: 1.5px;
+	color : #888;
+	padding: 10px;
 	font-style: italic;
-	transition: background-color 1.2s;
+	transition: background-color 1s;
+	transition: color 1s;
+	border-radius: 5px;
 }
 
 footer#rodape a:hover{
-	color: white;
-	background: #606060;
+	color: #09F;
+	background: #000;
+}
+
+video#video1{
+	position: relative;
+	margin-left: 100px;
+	padding: 10px;
+	box-shadow: 1px 1px 4px #000;
+	margin-bottom: 10px;
 }
 
 video#video2{
