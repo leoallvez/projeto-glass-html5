@@ -6,15 +6,15 @@
 }
 
 body{
-	background-color: #ddd;
+	background-color: #DDD;
 	color: rgba(0,0,0,1);
 	font-family: Verdana;
 	font-size: 1em;
 }
 
 div#interface{
-	width: 1100px;
-	background-color: #fff;
+	width: 1110px;
+	background-color: #FFF;
 	margin: -20px auto 0px auto; /*Centralizando a interface*/
 	/*box-shadow parametros deslocamento lateral- delocamento 
 	vertical - espalhamento da sombra -cor*/
@@ -59,19 +59,17 @@ header#cabecalho img#logo{
 header#cabecalho h1{
 	font-family: 'FonteLogo', sans-serif;
 	font-size: 1em;
-	color: #09F;
+	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	padding: 0px;
 	margin-top: -50px;
-	margin-left: 35px;
+	margin-left: 38px;
 }
-
-
 
 /*formatação de imagnes com legendas*/
 figure.foto-legenda{
 	position: relative;/*Por ser conteiner*/
-	border: 8px solid #fff;
+	border: 8px solid #FFF;
 	box-shadow: 1px 1px 4px #000; /*Criando sombra*/
 }
 
@@ -86,7 +84,6 @@ figure.foto-legenda figcaption{
 	position: absolute;
 	top: 0px;
 	background-color: rgba(0,0,0,0.4);
-	color: #32CD32;
 	width: 100%;
 	height: 100%;
 	padding: 10px;
@@ -95,8 +92,13 @@ figure.foto-legenda figcaption{
 	transition: opacity 1.2s; /*1s = um segundo*/
 }
 
+figure.foto-legenda h3{
+	color: #32CD32;
+	text-indent: 20px;
+}
+
 figure.foto-legenda p{
-	color: #09F;
+	color: #1E90FF;
 	text-indent: 20px;
 }
 
@@ -111,7 +113,6 @@ posição absolute o objeto fica solto pelo site*/
 nav#menu{
 	display: block;
 	font-family: Verdana;
-
 }
 
 nav#menu ul{
@@ -139,30 +140,29 @@ nav#menu h1{
 }
 
 nav#menu a{
-	color: #32CD32;
+	color: #00FF00;
 	text-decoration: none;
 	transition: color 1s;
 }
 
 nav#menu a#s{
-	color: #09F;
+	color: #1E90FF;
 }
 
 nav#menu li:hover a{
-	color: #09F;	
+	color: #1E90FF;	
 }
 
 section#corpo{
 	display: block; /*Mostrar como um bloco*/	
 	width: 710px;
 	float: left;
-	border-right: 1px solid #606060;
 	padding-right: 15px;
 }
 
 article#noticia-principal h2{
 	font-size: 1.1em;
-	color: #09F;
+	color: #1E90FF;
 	background-color: #000;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px;
@@ -175,13 +175,12 @@ header#cabecalho-artigo h1{
 	color: #606060;
 	margin-bottom: 0px;
 	margin-top: 0px;
-
 }
 
 header#cabecalho-artigo h2{
 	font-size: 1em;
 	color: #000;	
-	background-color: #fff;
+	background-color: #FFF;
 
 }
 
@@ -189,9 +188,11 @@ header#cabecalho-artigo h3{
 	font-size: 12px;
 	color: #606060;
 }
+
 .d{
 	text-align: right;
 }
+
 table#tabelaspec{
 	border: 2px solid #09F;
 	border-spacing: 0px; /*Espaço entre as celulas*/
@@ -216,49 +217,63 @@ table#tabelaspec td.ce{
 }
 
 table#tabelaspec td.cd{
-	background-color: #fff;
+	background-color: #FFF;
 	text-align: left;
-
 }
 
 table#tabelaspec caption{
 	color:#888;
-	font-size: 13pt;
+	font-size: 1.2em;
 	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 7px;
+	margin-right: 0px;
 }
 
 table#tabelaspec caption span{
 	display: block;
 	float: right;
 	font: black;
-	font-size: 8pt;
-	margin-top: 10px;
+	font-size: 0.5em;
+	margin-top: 12px;
+	margin-left: 0px;
 
 }
 
 aside#lateral{
 	display: block; 
-	width: 350px;
+	width: 352px;
 	float: right;
-	background-color: #ddd;
-	padding: 10px;
+	background-color: #1E90FF;
+	padding: 15px;
 	margin-top: 10px;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	color: #fff;
 }
 
 
 aside#lateral h1{
 	font-family: 'FonteLogo',sans-serif;
-	font-size: 20pt;
-	color: #606060;
+	font-size: 2em;
+	color: #FFF;
 	margin top: 0px;
+	text-indent: 10px;
 }	
 
 aside#lateral h2{
-	background-color: #606060;
-	font-size: 13pt;
+	margin-bottom: 5px;
+	font-size: 1.1em;
 	color: #fff;	
 	padding: 5px;
+	border-radius: 5px;
+	text-indent: 10px;
+	position: relative;
+}
+
+aside#lateral p{
+	margin-top: 5px;
+	text-indent: 16px;
 }
 
 footer#rodape{
@@ -302,6 +317,8 @@ video#video1{
 
 video#video2{
 	position: relative;
-	width: 348px;
+	width: 347px;
+	padding: 4px;
+	box-shadow: 1px 1px 4px #000;
+	background-color: #FFF;
 }
-
