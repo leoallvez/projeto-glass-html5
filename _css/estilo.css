@@ -72,7 +72,7 @@ header#cabecalho h1{
 figure.foto-legenda{
 	position: relative;/*Por ser conteiner*/
 	border: 8px solid #fff;
-	box-shadow: 1px 1px 4px black; /*Criando sombra*/
+	box-shadow: 1px 1px 4px #000; /*Criando sombra*/
 }
 
 /*Redimeciona img conforme a janela*/
@@ -161,7 +161,7 @@ section#corpo{
 }
 
 article#noticia-principal h2{
-	font-size: 12pt;
+	font-size: 1.1em;
 	color: #09F;
 	background-color: #000;
 	padding: 5px 0px 5px 10px;
@@ -171,7 +171,7 @@ article#noticia-principal h2{
 
 header#cabecalho-artigo h1{
 	font-family: "FonteLogo", sans-serif;
-	font-size: 20pt;
+	font-size: 2em;
 	color: #606060;
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -179,8 +179,8 @@ header#cabecalho-artigo h1{
 }
 
 header#cabecalho-artigo h2{
-	font-size: 13pt;
-	color: #cecece;	
+	font-size: 1em;
+	color: #000;	
 	background-color: #fff;
 
 }
