@@ -6,12 +6,11 @@
 }
 
 body{
-	background-color: #DDD;
+	background-color: #FFFAFA;
 	color: rgba(0,0,0,1);
 	font-family: Verdana;
 	font-size: 1em;
 }
-
 div#interface{
 	width: 1110px;
 	background-color: #FFF;
@@ -22,21 +21,14 @@ div#interface{
 	padding: 15px;
 	border-radius: 5px;
 }
-
 p{
 	text-align: justify;
 	text-indent: 40px;
 }
-
 a{
 	color: #606060;
 	text-decoration: none;
 }
-
-/*a:hover{
-	text-decoration: underline;
-}*/
-
 header#cabecalho img#icone{
 	position: absolute;
 	left: 960px;
@@ -185,12 +177,13 @@ header#cabecalho-artigo h2{
 }
 
 header#cabecalho-artigo h3{
-	font-size: 12px;
+	font-size: 0.7em;
 	color: #606060;
 }
 
 .d{
 	text-align: right;
+	font-size: 0.2em;
 }
 
 table#tabelaspec{
