@@ -1,0 +1,17 @@
+div#autor{
+	width: 500px;
+	height: 500px;
+	border: 1px solid #000;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+img#foto-perfil{
+	width: 160px;
+	height: 200px;
+	padding: 10px;
+	margin: auto 145px;
+	background-color: #FFF;
+	box-shadow: 1px 1px 10px #000;
+}

@@ -1,9 +1,9 @@
 @charset "UFT8";
 
 ul#album-fotos{
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 60px;
 	/*A propriedade overflow especifica quando o 
 	conteúdo de um elemento de nível de bloco 
 	deve ser cortado, exibido com barras de 
@@ -21,7 +21,7 @@ ul#album-fotos li{
 	background-color: #fff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 	/*tranformação da imagem*/
-	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 
 ul#album-fotos li span{
@@ -39,7 +39,7 @@ ul#album-fotos li span{
 
 ul#album-fotos li:hover{
 	/*Mudança da escala da imagem*/
-	-webkit-transform: scale(1.5);
+	transform: scale(1.7);
 }
 
 /*Genial!*/
@@ -50,7 +50,7 @@ ul#album-fotos li:hover span{
 
 ul#album-fotos li#foto01{
 	background: url('../_imagens/galeria-01.jpg') no-repeat;
-	background-position: 50% 50%;
+	background-position: 100% 100%;
 	background-size: 400px 400px;
 	background-color: #fff;
 }
@@ -110,14 +110,14 @@ ul#album-fotos li#foto05:hover{
 
 ul#album-fotos li#foto06{
 	background: url('../_imagens/galeria-06.jpg') no-repeat;
-	background-position: 50% 50%;
+	background-position: 0px 0px;
 	background-size: 400px 400px;
 	background-color: #fff;
 }
 
 ul#album-fotos li#foto06:hover{
 	background-position: 0px 0px;
-	background-size: 200px 200px;
+	background-position: 50% 50%;
 }
 
 

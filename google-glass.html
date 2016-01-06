@@ -6,18 +6,19 @@
 	<style>
 		body{
 			font-family: Arial;
-			font-size: 10pt;
+			font-size: 1.2em;
 		}
 		p{
 			text-align: justify;
 			text-indent: 20px;
 		}
 		article h1{
-			font-size: 15pt;
-			color:#fff;
-			background-color: rgba(0,0,0,0.3);
+			font-size: 1.3em;
+			color:#1E90FF;
+			background-color: #000;
 			padding: 5px;
 			margin: 0px;
+			border-radius: 5px;
 		}
 		article h2{
 			font-size: 13pt;
@@ -27,19 +28,37 @@
 		article{
 			margin-bottom: 800px;
 		}
+		
+		img{
+			padding: 5px;
+			background-color: white;
+			box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+			margin: 5px;
+		}
+
 		img.img-dir{
 			display: block;
 			float: right;
 			margin-left: 5px;
+		}
+
+		img#seta{
+			width: 110px;
+			height: 110px;
+			margin-top: 20px;
+			float: left;
+			margin-right: 7px;
 		}
 	</style>
 </head>
 	<body>
 		<article id="topo">
 			<header>
-				<h2>Clique sobre as áreas destacadas em vermelho</h2>
+				<h1>Clique sobre as áreas destacadas em vermelho</h1>
 			</header>
-			<img src="_imagens/mao.png" alt="Mão apontando para esquerda"/>
+			<img id="seta"src="_imagens/mini-seta-para-a-direita.jpg" alt="Mão apontando para esquerda"/>
+			<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
 		</article>
 		<article id="tela">
 			<header>
@@ -68,7 +87,7 @@
 		<article id="gadgets">
 			<header>
 				<h1>Bateria e Gadgets</h1>
-				<h2>Quais são os dispositivos que complementam o Glass</h2>
+				<h2>Os dispositivos que complementam o Glass</h2>
 			</header>
 			<img src="_imagens/det-bateria.jpg" class="img-dir" alt="Bateria">
 			<p>Segundo a própria Google, o Glass virá com uma bateria que tem autonomia suficiente para durar um dia inteiro. Apenas algumas atividades como videoconferências e longas filmagens vão exigir um pouco mais. Além disso ele vem com WiFi, Bluetooth, 3G/4G e muito mais.</p>

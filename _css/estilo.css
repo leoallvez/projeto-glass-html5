@@ -173,6 +173,7 @@ header#cabecalho-artigo h2{
 	font-size: 1em;
 	color: #000;	
 	background-color: #FFF;
+	text-indent: -1px;
 
 }
 

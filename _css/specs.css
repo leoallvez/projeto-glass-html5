@@ -6,10 +6,11 @@ section#conteudo{
 }
 
 iframe#frame-spec{
-	width: 380px;
-	height: 280px;	
+	width: 450px;
+	height: 370px;	
 	border: none;/*Sem bordas*/
 	overflow: hidden;/*Não deixa fazer rolagem*/
+	margin: 10px;	
 }
 /*Tirando barras lateral e vertical
 iframe#frame-spec::-webkit-scrollbar {
