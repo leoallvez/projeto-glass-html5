@@ -26,9 +26,15 @@ p{
 	text-indent: 40px;
 }
 a{
-	color: #606060;
+	color: #32CD32;
 	text-decoration: none;
+	transition: color 1s;
 }
+
+a:hover{
+	color:#1E90FF;
+}
+
 header#cabecalho img#icone{
 	position: absolute;
 	left: 960px;
@@ -183,7 +189,7 @@ header#cabecalho-artigo h3{
 }
 
 .d{
-	text-align: right;
+	text-align: left;
 	font-size: 0.2em;
 }
 
